@@ -38,8 +38,9 @@ cd catalog/Yoganandan-2000-Rear/dyna/6.8_50F
 starter_linux64_gf -i 00_main.key -np <N> # builds restart (.rst) + engine file _0001.rad
 mpirun -np <N> engine_linux64_gf_ompi -i 00_main_0001.rad   # solves; writes 00_mainT01
 ```
-A full 600 ms solve is a **cluster job**: ~1.1e6 s single-process here; budget hours
-on 16-64 cores. Run the 4 published cases (4.3/6.8 g x 50F/50M) the same way.
+The deck end time is set to **300 ms** (the published catalog default is 600 ms; 300 ms roughly halves
+the cycle count). A full solve is still a **cluster job**: order ~5e5 s single-process at 300 ms; budget
+hours on 16-64 cores. Run the 4 published cases (4.3/6.8 g x 50F/50M) the same way.
 
 ## Pipeline (the contracted automation)
 `tools/openradioss/` (own git repo). Parses muscle groups, applies per-run

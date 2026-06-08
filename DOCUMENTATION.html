@@ -444,8 +444,9 @@ cd dyna/6.8_50F
 starter_linux64_gf -i 00_main.key -np N        # builds restart + engine file (0 errors)
 mpirun -np N engine_linux64_gf_ompi -i 00_main_0001.rad   # solves; writes 00_mainT01</pre>
 <p class="mut">The 4 published cases are 4.3 g and 6.8 g pulses for the 50F and 50M models; the rear-impact validation point is the 6.8 g, 50F case.</p>
-<div class="note"><b>Compute note.</b> This is a ~785,000-element full-body HBM. A complete 600 ms solve is a
-multi-core <b>cluster</b> job (hours on 16-64 cores), not a workstation run. The parametric sweep is N such solves
+<div class="note"><b>Compute note.</b> This is a ~785,000-element full-body HBM. The deck end time is configured to
+<b>300 ms</b> (reduced from the published catalog default of 600 ms, which roughly halves the cycle count).
+A complete solve is still a multi-core <b>cluster</b> job (hours on 16-64 cores), not a workstation run. The parametric sweep is N such solves
 and should be submitted to a cluster, which is how the VIVA+ validations are produced<sup><a href="#r4">[4]</a></sup>.</div>
 </section>
 
