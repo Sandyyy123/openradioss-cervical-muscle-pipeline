@@ -1,0 +1,2 @@
+run_id,activated_groups,t_start_ms,magnitude_pct,peak_g,HIC15,peak_head_accel_g,peak_head_t1_angle_deg,upper_neck_Fx_N,upper_neck_Fz_N,upper_neck_My_Nm,lower_neck_Fx_N,lower_neck_Fz_N,lower_neck_My_Nm
+acc,,0.0000,0.0000,0.6048,0.0007,0.6048,,,,,,,

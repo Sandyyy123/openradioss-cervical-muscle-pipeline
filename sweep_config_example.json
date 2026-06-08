@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "run_01_baseline",
+    "activated_groups": [],
+    "t_start": 0.0,
+    "magnitude_pct": 2.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 8.0,
+    "notes": "Baseline: no pre-activation, all muscles at passive 2% MVC tone. 8g. Reference condition."
+  },
+  {
+    "run_id": "run_02_scm_only",
+    "activated_groups": ["SCM"],
+    "t_start": -0.020,
+    "magnitude_pct": 80.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 8.0,
+    "notes": "SCM bilateral only. T_start=-20ms pre-impact. 80% MVC. 8g."
+  },
+  {
+    "run_id": "run_03_deep_flexors",
+    "activated_groups": ["CM_C6"],
+    "t_start": -0.030,
+    "magnitude_pct": 60.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 8.0,
+    "notes": "Deep cervical flexors (longus colli, longus capitis via CM_C6). T_start=-30ms. 60% MVC. 8g."
+  },
+  {
+    "run_id": "run_04_all_flexors",
+    "activated_groups": ["SCM", "STH", "Scal", "CM_C6"],
+    "t_start": -0.020,
+    "magnitude_pct": 80.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 8.0,
+    "notes": "All cervical flexors. T_start=-20ms. 80% MVC. 8g."
+  },
+  {
+    "run_id": "run_05_all_extensors",
+    "activated_groups": ["Trap", "SCap", "SCerv", "CM_C4"],
+    "t_start": -0.020,
+    "magnitude_pct": 80.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 8.0,
+    "notes": "All cervical extensors. T_start=-20ms. 80% MVC. 8g."
+  },
+  {
+    "run_id": "run_06_all_muscles_100",
+    "activated_groups": ["SCM", "STH", "Scal", "Trap", "SCap", "SCerv", "CM_C4", "CM_C6"],
+    "t_start": -0.030,
+    "magnitude_pct": 100.0,
+    "baseline_tone_pct": 3.5,
+    "peak_g": 8.0,
+    "notes": "Full co-contraction at 100% MVC. T_start=-30ms. 8g."
+  },
+  {
+    "run_id": "run_07_all_muscles_12g",
+    "activated_groups": ["SCM", "STH", "Scal", "Trap", "SCap", "SCerv", "CM_C4", "CM_C6"],
+    "t_start": -0.030,
+    "magnitude_pct": 100.0,
+    "baseline_tone_pct": 5.0,
+    "peak_g": 12.0,
+    "notes": "Full co-contraction, elevated 12g crash severity. T_start=-30ms. 100% MVC."
+  },
+  {
+    "run_id": "run_08_supramaximal_15g",
+    "activated_groups": ["SCM", "STH", "Scal", "Trap", "SCap", "SCerv", "CM_C4", "CM_C6"],
+    "t_start": -0.060,
+    "magnitude_pct": 150.0,
+    "baseline_tone_pct": 2.0,
+    "peak_g": 15.0,
+    "notes": "Worst-case supramaximal: 150% MVC, T_start=-60ms, 15g. Structural limit assessment."
+  }
+]
