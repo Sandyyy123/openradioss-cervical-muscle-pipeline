@@ -1,3 +1,5 @@
+> Copyright (c) 2026 Sandeep Grover. All Rights Reserved. Proprietary - no use, copying, modification, or distribution without prior written permission. See LICENSE.
+
 # OpenRadioss Parametric Rear-Impact Pipeline
 
 A Python pipeline for parametric rear-impact crash simulations using the VIVA+ Human Body Model (HBM) in OpenRadioss. It automates deck modification, batch job submission, metric extraction, and HTML reporting across a user-defined sweep of cervical muscle activation conditions.
