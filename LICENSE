@@ -1,28 +1,29 @@
-PROPRIETARY SOFTWARE LICENSE - ALL RIGHTS RESERVED
+Proprietary Software License
 
 Copyright (c) 2026 Sandeep Grover. All Rights Reserved.
 
-This repository and all source code, scripts, documentation, configuration, and
-other materials contained herein (the "Work") are the proprietary and
-confidential property of the copyright holder.
+This repository and all of its contents (source code, scripts, data, models, and
+documentation; collectively, the "Software") are the proprietary and confidential
+property of Sandeep Grover ("the Owner") and are protected by copyright and other
+intellectual-property laws. The Software is licensed, not sold, and all rights are
+reserved by the Owner.
 
-NO LICENSE OR RIGHT OF USE IS GRANTED.
+NO LICENSE OR PERMISSION is granted, by implication, estoppel, or otherwise, to any
+person or entity to use, run, execute, copy, reproduce, download, store, modify,
+adapt, translate, merge, publish, distribute, transmit, sublicense, sell, host, use
+for training or evaluation of machine-learning models, or create derivative works
+from the Software, in whole or in part, by any means, without the prior express
+written permission of the Owner.
 
-No part of the Work may be used, executed, run, copied, reproduced, modified,
-adapted, translated, merged, published, displayed, distributed, transmitted,
-sublicensed, sold, or otherwise exploited, in whole or in part, by any person or
-entity, for any purpose, without the prior express written permission of the
-copyright holder.
+Making this repository publicly viewable does NOT grant any license to its contents.
+Accessing or viewing the Software transfers no right, title, or interest in it. Any
+unauthorized use, reproduction, or distribution is strictly prohibited and may result
+in civil and criminal liability.
 
-Possession of, or access to, this Work does not confer any license or right to
-use it. Unauthorized use, reproduction, or distribution is strictly prohibited
-and may result in civil and criminal liability under applicable copyright and
-other laws. All rights not expressly granted in writing are reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE OWNER BE LIABLE FOR
+ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE.
 
-THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER
-BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN
-CONNECTION WITH THE WORK OR THE USE OF THE WORK.
-
-For licensing inquiries, contact: grover.sandeep@gmail.com
+For licensing inquiries, contact the Owner via https://github.com/Sandyyy123
