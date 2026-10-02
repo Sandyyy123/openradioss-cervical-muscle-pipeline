@@ -1,0 +1,2 @@
+# Vendored third-party LS-DYNA model data (VIVA+); exclude from language stats
+*.k linguist-vendored
